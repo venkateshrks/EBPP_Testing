@@ -16,6 +16,7 @@
 		147ED3942046C4CB006C5607 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 147ED3932046C4CB006C5607 /* main.m */; };
 		147ED39E2046C4CD006C5607 /* ObjectiveNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 147ED39D2046C4CD006C5607 /* ObjectiveNewTests.m */; };
 		147ED3A92046C4CD006C5607 /* ObjectiveNewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 147ED3A82046C4CD006C5607 /* ObjectiveNewUITests.m */; };
+		147ED3B82046E2CF006C5607 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147ED3B72046E2CF006C5607 /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		147ED3A42046C4CD006C5607 /* ObjectiveNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		147ED3A82046C4CD006C5607 /* ObjectiveNewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveNewUITests.m; sourceTree = "<group>"; };
 		147ED3AA2046C4CD006C5607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147ED3B62046E2CF006C5607 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		147ED3B72046E2CF006C5607 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				147ED3822046C4CA006C5607 /* AppDelegate.m */,
 				147ED3842046C4CA006C5607 /* ViewController.h */,
 				147ED3852046C4CA006C5607 /* ViewController.m */,
+				147ED3B62046E2CF006C5607 /* NextViewController.h */,
+				147ED3B72046E2CF006C5607 /* NextViewController.m */,
 				147ED3872046C4CA006C5607 /* Main.storyboard */,
 				147ED38D2046C4CB006C5607 /* Assets.xcassets */,
 				147ED38F2046C4CB006C5607 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				147ED3B82046E2CF006C5607 /* NextViewController.m in Sources */,
 				147ED3862046C4CA006C5607 /* ViewController.m in Sources */,
 				147ED3832046C4CA006C5607 /* AppDelegate.m in Sources */,
 				147ED3942046C4CB006C5607 /* main.m in Sources */,

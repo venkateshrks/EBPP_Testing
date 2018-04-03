@@ -1,25 +1,107 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Helvetica.ttc">
+            <string>Helvetica</string>
+        </array>
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Medium</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SWE-wd-BeX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v1.0.73" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fa3-QW-I5v">
+                                        <rect key="frame" x="269" y="539" width="43" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="WUN-oU-Mju"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                        <color key="textColor" red="0.58039215690000001" green="0.58431372550000005" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.65490196079999996" green="0.65490196079999996" blue="0.6705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.059477917849999999" green="0.47546809909999999" blue="0.78689855340000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="fa3-QW-I5v" firstAttribute="bottom" secondItem="SWE-wd-BeX" secondAttribute="bottomMargin" id="5WG-hL-FJ3"/>
+                                    <constraint firstItem="fa3-QW-I5v" firstAttribute="trailing" secondItem="SWE-wd-BeX" secondAttribute="trailingMargin" id="Qb6-8w-LAL"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UJP-91-szQ">
+                                <rect key="frame" x="27" y="127" width="266" height="267"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NTM-yu-p14">
+                                        <rect key="frame" x="0.0" y="0.0" width="266" height="267"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JioMoney" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qG-kg-8RB">
+                                        <rect key="frame" x="85" y="99" width="101" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reliance Payment Solutions Ltd." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d05-K1-6Nm">
+                                        <rect key="frame" x="48" y="128" width="175" height="14"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="d05-K1-6Nm" firstAttribute="leading" secondItem="UJP-91-szQ" secondAttribute="leading" constant="48" id="1m8-K6-5dT"/>
+                                    <constraint firstItem="8qG-kg-8RB" firstAttribute="centerX" secondItem="d05-K1-6Nm" secondAttribute="centerX" id="2S6-gt-asV"/>
+                                    <constraint firstItem="NTM-yu-p14" firstAttribute="top" secondItem="UJP-91-szQ" secondAttribute="top" id="2kW-Cc-Ygc"/>
+                                    <constraint firstItem="d05-K1-6Nm" firstAttribute="top" secondItem="8qG-kg-8RB" secondAttribute="bottom" constant="8" symbolic="YES" id="8xX-xY-TfI"/>
+                                    <constraint firstItem="8qG-kg-8RB" firstAttribute="top" secondItem="UJP-91-szQ" secondAttribute="top" constant="99" id="LQi-jF-hno"/>
+                                    <constraint firstAttribute="trailing" secondItem="NTM-yu-p14" secondAttribute="trailing" id="NWt-WA-fWj"/>
+                                    <constraint firstAttribute="bottom" secondItem="NTM-yu-p14" secondAttribute="bottom" id="U7o-1I-aW4"/>
+                                    <constraint firstItem="NTM-yu-p14" firstAttribute="leading" secondItem="UJP-91-szQ" secondAttribute="leading" id="nNb-E7-EHv"/>
+                                    <constraint firstItem="8qG-kg-8RB" firstAttribute="leading" secondItem="UJP-91-szQ" secondAttribute="leading" constant="85" id="nkr-24-tJo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="SWE-wd-BeX" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6VF-cb-srn"/>
+                            <constraint firstItem="SWE-wd-BeX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="9aS-P7-Yo0"/>
+                            <constraint firstItem="SWE-wd-BeX" firstAttribute="centerX" secondItem="UJP-91-szQ" secondAttribute="centerX" id="FEW-Xu-IEO"/>
+                            <constraint firstItem="SWE-wd-BeX" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Ihz-xu-wvC"/>
+                            <constraint firstItem="UJP-91-szQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="107" id="KYk-MV-nwI"/>
+                            <constraint firstItem="SWE-wd-BeX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="YdQ-Ek-74V"/>
+                            <constraint firstItem="UJP-91-szQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="jd9-ai-CeI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UJP-91-szQ" secondAttribute="bottom" constant="174" id="p6r-yq-fxa"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.5" y="375"/>
         </scene>
     </scenes>
 </document>
